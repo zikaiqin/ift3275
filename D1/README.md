@@ -2,7 +2,8 @@
 
 ### Question 1
 
-Nous avons calculé la racine à l'aide du script `nth_root.py`
+Nous avons calculé la racine à l'aide du script `nth_root.py` <br>
+Tous les scripts se trouvent dans le répertoire `scripts`
 
 ### Question 4
 
@@ -11,4 +12,4 @@ Dans un premier temps, nous obtenons la représentation hexadécimale du message
 Par la suite, nous utilisons `crack.py` pour effectuer l'attaque crib drag avec les
 [5000 mots les plus fréquents de la langue française.](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/French/OpenSubtitles_Top_20K)
 
-Finalement, à l'aide des résultats obtenus à l'étape précédente, nous utilisons l'outil `index.html` pour déchiffrer le message davantage.
+Finalement, à l'aide des résultats obtenus à l'étape précédente, nous utilisons l'outil dans `app/index.html` pour déchiffrer le message davantage.
