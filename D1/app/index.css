@@ -1,0 +1,30 @@
+.full-height {
+    height: 100vh;
+}
+
+.vert-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.stretch {
+    flex-grow: 1;
+}
+
+.code-block {
+    font-family: monospace;
+}
+
+td, th {
+    padding: 4px;
+    text-align: center;
+}
+
+table input {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+    padding: 0 !important;
+    height: 2rem !important;
+    width: 2rem !important;
+    text-align: center;
+}

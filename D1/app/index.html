@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crib Drag Calculator</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body class="full-height vert-flex">
+        <header class="container">
+            <h1>Crib Drag Calculator</h1>
+        </header>
+        <main class="container stretch vert-flex">
+            <form id="cipher-form" class="stretch vert-flex">
+                <textarea
+                    id="cipher-input"
+                    placeholder="Insert ciphertext here"
+                    aria-describedby="cipher-helper"
+                    class="stretch code-block"
+                ></textarea>
+                <small id="cipher-helper"></small>
+                <span>
+                    <button id="cipher-reset" type="reset">Clear</button>
+                    <button id="cipher-submit" type="button">Continue</button>
+                </span>
+            </form>
+            <div id="table-container" class="overflow-auto code-block"></div>
+        </main>
+        <footer class="container"></footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
